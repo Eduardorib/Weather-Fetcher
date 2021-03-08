@@ -1,0 +1,50 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather Fetcher</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="public/weather.png"/>
+    </head>
+
+
+    <body>
+        <div class="title">
+            <h1>Weather Fetcher</h1>
+        </div>
+        <div id="searchContainer">
+            <input class="searchControl"
+             type="text" 
+             placeholder="City Name or Zipcode" 
+             id="searchInput">
+            <button class="searchControl" id="searchBtn">Search</button>
+        </div>
+        <div id="weatherContainer">
+            <div id="weatherDescription">
+                <h1 id="cityHeader"></h1>
+                <div id="weatherMain">
+                    <div id="temperature"></div>
+                    <div id="weatherDescriptionHeader"></div>
+                    <div><img id="documentIconImg"></div>
+                </div>
+                <hr>
+                <div id="windSpeed" class="bottomDetails"></div>
+                <div id="humidity" class="bottomDetails"></div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <small>Made by <a href="https://github.com/Eduardorib" target="_blank"> <span class:"name"> Eduardo Ribeiro </span> </a>
+        </div>
+        
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
