@@ -79,7 +79,7 @@ function init(resultFromServer) {
 }
 
 function setPositionForWeatherInfo() {
-    const weaterContainer = document.getElementById('weatherContainer');
+    const weatherContainer = document.getElementById('weatherContainer');
     weatherContainer.style.visibility = 'visible';
 }
 
